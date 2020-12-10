@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/register.css">
+    <title>Register Page</title>
+</head>
+
+<body>
+    <div class="backimg">
+        <img src="../image/menu/oliva1.png" alt="">
+    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../image/menu/Лого.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <section>
+        <button class="register-btn">Регистрация</button>
+        <form action="../pages/login.html">
+            <button class="login-btn">Вход</button>
+        </form>
+
+
+        <div class="reg-page">
+            <div>
+                <label>Ваша электронная почта </label>
+                <input type="email" placeholder="Введите ваш адрес эл. почты" name="username" required>
+            </div>
+            <div>
+                <label>Ваше имя</label>
+                <input type="text" placeholder="Введите ваше имя" name="username" required>
+            </div>
+            <div> <label>Ваша фамилия</label>
+                <input type="text" placeholder="Введите вашу фамилию" name="username" required></div>
+            <div>
+                <label>Ваш телефон</label>
+                <input type="tel" placeholder="Введите ваш телефон" name="username" required>
+            </div>
+            
+                <div>
+                    <label>Ваш пароль</label>
+                    <input type="password" id="txtNewPassword" placeholder="Введите ваш пароль" />
+                </div>
+                <div>
+                    <label>Ваш пароль</label>
+                    <input type="password" id="txtConfirmPassword" onChange="checkPasswordMatch();" placeholder="Введите ваш пароль повторно" />
+                </div>
+           
+           
+        </div>
+       
+ </section>
+ <div>
+     <div class="footer-img">
+         <img src="../image/menu/olive2.png" alt="">
+     </div>
+     <form action="" class="register" >
+         <button onclick="return checkPasswordMatch()">Регистрация</button>
+     </form>
+ </div>
+ <script>
+    function checkPasswordMatch() {
+        var password = $("#txtNewPassword").val();
+        var confirmPassword = $("#txtConfirmPassword").val();
+    
+        if (password != confirmPassword)
+            $("#divCheckPasswordMatch").html("Passwords do not match!");
+        else
+            $("#divCheckPasswordMatch").html("Passwords match.");
+    }
+ </script>
+        
+</body>
+
+</html>

@@ -1,0 +1,300 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sec-menu-nav {
+    position: relative;
+    list-style-type: none;
+    top: 1100px;
+    left: 0px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.sec-menu-nav li {
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+}
+
+.sec-menu-nav li a {
+    margin-left: 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav1 li {
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
+
+.nav1 li a {
+    margin-left: 80px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.nav1 li a:hover {
+    background-color: #111;
+}
+
+.nav1 #contact {
+    margin-left: 200px;
+}
+
+.head-img img {
+    top: 25px;
+    position: absolute;
+    align-items: center;
+    left: 730px;
+}
+
+.nav1 #sign {
+    margin-left: 100px;
+}
+
+.head-img2 {
+    margin-top: 45px;
+}
+
+.head-img2 img {
+    position: absolute;
+    align-items: center;
+    left: 1155px;
+}
+
+.head-img3 img {
+    margin-left: 90px;
+}
+
+.contact h1 {
+    position: absolute;
+    width: 239px;
+    height: 59px;
+    left: 100px;
+    top: 160px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.map {
+    position: absolute;
+    left: 500px;
+    top: 250px;
+}
+
+.time h1 {
+    position: absolute;
+    width: 190px;
+    height: 29px;
+    left: 100px;
+    top: 269px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.time p {
+    position: absolute;
+    width: 146px;
+    height: 22px;
+    left: 100px;
+    top: 313px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.time .p1 {
+    position: absolute;
+    width: 169px;
+    height: 22px;
+    left: 100px;
+    top: 340px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.phone h1 {
+    position: absolute;
+    width: 111px;
+    height: 29px;
+    left: 100px;
+    top: 412px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.phone p {
+    position: absolute;
+    width: 178px;
+    height: 22px;
+    left: 100px;
+    top: 451px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.phone .p1 {
+    position: absolute;
+    width: 179px;
+    height: 22px;
+    left: 100px;
+    top: 478px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.address h1 {
+    position: absolute;
+    width: 80px;
+    height: 29px;
+    left: 100px;
+    top: 550px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.address p {
+    position: absolute;
+    width: 282px;
+    height: 22px;
+    left: 100px;
+    top: 589px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.social{
+    margin-top: 120px;
+    width: 15%;
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-around;
+
+}
+
+
+
+.footer-logo img {
+    position: absolute;
+    top: 920px;
+    left: 105px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    margin-bottom: 100px;
+}
+
+.footer-text {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    top: 200px;
+    left: 380px;
+    color: white;
+    line-height: 12px;
+}
+
+.footer-text h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.footer-text p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 5px;
+}
+
+.footer-contact {
+    position: absolute;
+    top: 890px;
+    left: 1320px;
+}
+
+.contact {
+    margin: 30px;
+}
+.pistachio{
+    position: absolute;
+    left: 400px;
+    top: 600px;
+}

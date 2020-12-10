@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
+    left: 45.62%;
+    right: 47.54%;
+    top: 7%;
+    bottom: -10%;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.back-image img {
+    position: absolute;
+    width: 836px;
+    height: 779px;
+    left: -14px;
+    top: 332px;
+}
+.login-btn {
+    position: absolute;
+    width: 110px;
+    height: 44px;
+    left: 37px;
+    top: -80px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    background: transparent;
+    color: #AAA8A8;
+    outline: none;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+.login-btn a{
+    color: white;
+}
+.login-btn a:hover{
+    color: black;
+    background: transparent;
+
+}
+
+.register-btn {
+    position: absolute;
+    width: 263px;
+    height: 44px;
+    left: 700px;
+    color: white;
+    background: transparent;
+    top: 170px;
+    text-transform: uppercase;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+   
+}
+
+.register-btn:hover {
+    background-color: white;
+    color: black;
+    outline: none;
+}
+form {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+}
+
+input[type=text], input[type=password],input[type=email],input[type=tel]{
+    width: 550px;
+    background: transparent;
+    margin: 20px;
+    
+    margin-left: 120px;
+    padding: 12px 20px;
+    /* display: inline-block; */
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    bottom: 30px;
+   
+}
+label{
+    color: white;
+    position: absolute;
+    left: 120px;
+   
+}
+.reg-page{
+    position: absolute;
+    top: 240px;
+    margin: 30px;
+    left: 300px;
+}
+.footer-img{
+    position: absolute;
+    right: 30px;
+    top: 700px;
+}
+
+
+.register button{
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 207px;
+    height: 50px;
+    background: transparent;
+    top: 543px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    left: 175px;
+    top: 593px;
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

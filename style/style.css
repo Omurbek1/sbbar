@@ -1,0 +1,426 @@
+html, body {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sec-menu-nav {
+    position: relative;
+    list-style-type: none;
+    top: 1100px;
+    left: 0px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.sec-menu-nav li {
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+}
+.sec-menu-nav li:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.sec-menu-nav li a {
+    margin-left: 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav1 li {
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
+
+.nav1 li a {
+    margin-left: 80px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.nav1 li a:hover {
+ background-attachment: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.nav1 #contact {
+    margin-left: 200px;
+}
+
+.head-img img {
+    top: 25px;
+    position: absolute;
+    align-items: center;
+    left: 730px;
+}
+.head-img img:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.nav1 #sign {
+    margin-left: 100px;
+}
+
+.head-img2 {
+    margin-top: 45px;
+}
+
+.head-img2 img {
+    position: absolute;
+    align-items: center;
+    left: 1170px;
+}
+
+.head-img3 img {
+    margin-left: 50px;
+}
+
+.slider-banner {
+    position: absolute;
+    margin: auto;
+    margin-left: 30px;
+}
+
+#btn-left {
+    display: flex;
+    top: 350px;
+    position: absolute;
+}
+
+.banner-2 img {
+    position: relative;
+    display: flex;
+    top: 900px;
+}
+
+.banner-2 .broccoli {
+    position: absolute;
+    display: flex;
+    top: 400px;
+}
+
+.black-pepper {
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 400px;
+}
+
+.tomato {
+    position: absolute;
+    display: flex;
+    top: 160px;
+    left: 980px;
+}
+
+.sec-menu-nav #menu {
+    position: relative;
+    font-size: 28px;
+    top: -13px;
+ 
+}
+
+.menu-image {
+    margin-bottom: 150px;
+    width: 70%;
+    left: 220px;
+    position: relative;
+    display: flex;
+    top: 1200px;
+    justify-content: space-around;
+}
+
+.menu-image h1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.menu-image p {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 15px;
+    bottom: 10px;
+}
+
+#som {
+    font-weight: bold;
+}
+
+#operator {
+    position: absolute;
+    left: 150px;
+    top: 281px;
+}
+
+#korzine {
+    position: absolute;
+    left: 245px;
+    top: 275px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#korzine {
+    border: 1px solid white;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#kor-2 {
+    border: 1px solid white;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    position: absolute;
+    left: 600px;
+    top: 275px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#operaor-1 {
+    position: absolute;
+    left: 500px;
+    top: 281px;
+}
+
+#kor-3 {
+    border: 1px solid white;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    position: absolute;
+    left: 950px;
+    top: 275px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#opraor-2 {
+    position: absolute;
+    left: 850px;
+    top: 281px;
+}
+
+.chili {
+    position: absolute;
+    top: 2500px;
+}
+
+.pepper {
+    position: absolute;
+    top: 2500px;
+    left: 500px;
+}
+
+.shaty {
+    position: absolute;
+    top: 2500px;
+}
+
+.coffe {
+    position: absolute;
+    top: 1900px;
+    left: 400px;
+}
+
+.black {
+    position: absolute;
+    top: 2200px;
+    left: 600px;
+}
+
+.sec3 {
+    position: relative;
+    display: flex;
+}
+
+.about h1 {
+    position: relative;
+    color: white;
+    top: 1200px;
+    left: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px
+}
+
+.sec3-img {
+    position: relative;
+    top: 1230px;
+    left: 150px;
+}
+
+.about p {
+    position: relative;
+    color: white;
+    left: 800px;
+    top: 760px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    letter-spacing: 0.02em;
+}
+
+.mushroom {
+    position: absolute;
+    left: 900px;
+    top: 1450px;
+}
+.pepper1{
+    position: absolute;
+    
+    top: 1450px;
+
+}
+.banner-4{
+    position: absolute;
+    top: 3240px;
+    margin: 130px;
+   
+}
+
+.footer-img img{
+    margin-top: 130px;
+}
+.slider{
+    position: relative;
+    top:330px;
+    width: 80%;
+    left: 120px;
+
+}
+.slider__item{
+    margin-left: 110px;
+    
+}
+
+
+.slider .slick-arrow {
+ position: absolute;
+ top: 50%;
+ margin: -30px 0 0 0;
+ z-index: 10;
+ font-size: 0;
+ width: 100px;
+ height: 100px;
+ 
+}
+.slider .slick-arrow.slick-prev{
+ left: -80px;
+ background:url(../image/menu/Стрелка\ влево.png) center/ cover no-repeat;
+}
+.slider .slick-arrow.slick-next{
+ right: -150px;
+ margin-left: 80px;
+ background: url(../image/menu/Стрелка\ вправо.png) center/ cover no-repeat;
+}
+/*СТРЕЛКА НЕ АКТИВНАЯ*/
+.slider .slick-arrow.slick-disabled{
+ opacity: 0.2;
+}
+.footer-logo img{
+    position: absolute;
+    top: 4100px;
+    left: 105px;
+   
+
+}
+.footer-logo{
+    margin-bottom: 100px;
+}
+.footer-text{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    top: 4160px;
+    left: 380px;
+    color: white;
+    line-height: 12px;
+}
+
+.footer-text h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+}
+.footer-text p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 5px;
+}
+.footer-contact{
+    position: absolute;
+   
+   top: 4070px;
+   left: 1320px;
+   
+}
+.contact{
+    margin: 30px;
+}
+.carousel{
+    position: absolute;
+    left: 60px;
+}
+.carousel-control-prev{
+    width: 50px;
+    height: 100px;
+    background-image: url(../image/menu/Стрелка\ влево.png);
+    top: 390px;
+    color: white;
+}
+.carousel-control-next{
+    width: 60px;
+    height: 100px;
+    background-image: url(../image/menu/Стрелка\ вправо.png);
+    top: 390px;
+    color: white;
+}
+
+
+
+/*  */
+

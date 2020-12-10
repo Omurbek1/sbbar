@@ -1,0 +1,696 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sec-menu-nav {
+    position: relative;
+    list-style-type: none;
+    top: 1100px;
+    left: 0px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.sec-menu-nav li {
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+}
+
+.sec-menu-nav li a {
+    margin-left: 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav1 li {
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
+
+.nav1 li a {
+    margin-left: 80px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.nav1 li a:hover {
+    background-color: #111;
+}
+
+.nav1 #contact {
+    margin-left: 200px;
+}
+
+.head-img img {
+    top: 25px;
+    position: absolute;
+    align-items: center;
+    left: 730px;
+}
+
+.nav1 #sign {
+    margin-left: 100px;
+}
+
+.head-img2 {
+    margin-top: 45px;
+}
+
+.head-img2 img {
+    position: absolute;
+    align-items: center;
+    left: 1155px;
+}
+
+.head-img3 img {
+    margin-left: 90px;
+}
+
+.signat-steak h1 {
+    position: absolute;
+    width: 165px;
+    height: 59px;
+    left: 100px;
+    top: 160px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.signat-steak img {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 100px;
+    top: 273px;
+}
+
+.signat-steak-text h1 {
+    position: absolute;
+    width: 349px;
+    height: 44px;
+    left: 750px;
+    top: 233px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.signat-steak-text p {
+    position: absolute;
+    width: 590px;
+    height: 87px;
+    left: 750px;
+    top: 317px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.signat-steak-text .count {
+    position: absolute;
+    width: 115px;
+    height: 29px;
+    left: 750px;
+    top: 434px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B32727;
+}
+
+.signat-steak-text .coun {
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 915px;
+    top: 434px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #54B129;
+}
+
+.signat-steak-btn {
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    left: 760px;
+    top: 561px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    width: 224px;
+    height: 60px;
+    background: transparent;
+    top: 543px;
+    border: 1px solid #FFFFFF;
+}
+
+.stock-back img {
+    position: absolute;
+    top: 200px;
+    left: 370px;
+    transform: rotate(105deg);
+}
+
+.signat-steak-text2 h1 {
+    position: absolute;
+    width: 321px;
+    height: 44px;
+    left: 379px;
+    top: 753px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.signat-steak-text2 p {
+    position: absolute;
+    width: 590px;
+    height: 87px;
+    left: 110px;
+    top: 817px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.signat-steak-text2 .count2 {
+    position: absolute;
+    width: 115px;
+    height: 29px;
+    left: 437px;
+    top: 934px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B32727;
+}
+
+.signat-steak-text2 .coun2 {
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 597px;
+    top: 934px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #54B129;
+}
+
+.signat-steak-btn2 {
+    position: absolute;
+    left: 500px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    width: 224px;
+    height: 60px;
+    background: transparent;
+    top: 1061px;
+    border: 1px solid #FFFFFF;
+}
+
+.c1112 {
+    position: absolute;
+    top: 961px;
+    transform: rotate(150deg);
+    left: 300px;
+}
+
+.bulgor-img img {
+    position: relative;
+    left: 760px;
+    top: 100px;
+}
+
+/*  */
+
+.signat-steak3 img {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    left: 100px;
+    top: 273px;
+}
+
+.bulgor-img3 {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 100px;
+    top: 1353px;
+}
+
+.stock-back3 img {
+    position: absolute;
+    top: 1178px;
+}
+
+.c3 {
+    position: absolute;
+    top: 1500px;
+}
+
+.signat-steak-text3 h1 {
+    position: absolute;
+    left: 750px;
+    top: 1312px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.signat-steak-text3 p {
+    position: absolute;
+    width: 590px;
+    height: 87px;
+    left: 750px;
+    top: 1367px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.count3 s {
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B32727;
+    top: 120px;
+    left: 0px;
+}
+
+.signat-steak-text3 .coun3 {
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 920px;
+    top: 1490px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #54B129;
+}
+
+.signat-steak-btn4 {
+    position: absolute;
+    left: 905px;
+    top: 1634px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    width: 224px;
+    height: 60px;
+    left: 755px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.signat-steak-text4 h1 {
+    position: absolute;
+    width: 238px;
+    height: 44px;
+    left: 462px;
+    top: 1853px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.signat-steak-text4 p {
+    position: absolute;
+    width: 590px;
+    height: 87px;
+    left: 110px;
+    top: 1917px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.signat-steak-text4 .count4 {
+    position: absolute;
+    width: 115px;
+    height: 29px;
+    left: 437px;
+    top: 2034px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B32727;
+}
+
+.signat-steak-text4 .coun4 {
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 597px;
+    top: 2034px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #54B129;
+}
+
+.signat-steak-btn5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    width: 224px;
+    height: 60px;
+    left: 755px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    width: 224px;
+    height: 60px;
+    left: 476px;
+    top: 2200px;
+}
+
+.bulgor-img4 {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 740px;
+    top: 1900px;
+}
+
+.bulgor-img5 {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 100px;
+    top: 2453px;
+}
+
+.signat-steak-text5 h1 {
+    position: absolute;
+    width: 251px;
+    height: 44px;
+    left: 750px;
+    top: 2413px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.signat-steak-text5 p {
+    position: absolute;
+    width: 590px;
+    height: 87px;
+    left: 750px;
+    top: 2477px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.signat-steak-text5 .count5 {
+    position: absolute;
+    width: 115px;
+    height: 29px;
+    left: 750px;
+    top: 2600px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B32727;
+}
+
+.signat-steak-text5 .coun5 {
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 925px;
+    top: 2600px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #54B129;
+}
+
+.signat-steak-btn6 {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    width: 224px;
+    height: 60px;
+    left: 376px;
+    left: 750px;
+    top: 2721px;
+}
+
+.bulgor-img6 {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 740px;
+    top: 2983px;
+}
+
+.signat-steak-text6 h1 {
+    position: absolute;
+    width: 479px;
+    height: 44px;
+    left: 301px;
+    top: 2953px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.signat-steak-text6 p {
+    position: absolute;
+    width: 590px;
+    height: 87px;
+    left: 110px;
+    top: 3027px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.signat-steak-text6 .count6 {
+    position: absolute;
+    width: 115px;
+    height: 29px;
+    left: 437px;
+    top: 3134px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B32727;
+}
+
+.signat-steak-text6 .coun6 {
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 597px;
+    top: 3134px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #54B129;
+}
+
+.signat-steak-btn7 {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    width: 224px;
+    height: 60px;
+    left: 476px;
+    top: 3243px;
+}
+
+.footer-img {
+    position: absolute;
+    top: 3700px;
+}
+
+.footer-logo img {
+    position: absolute;
+    top: 3700px;
+    left: 105px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    margin-bottom: 100px;
+}
+
+.footer-text {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    top: 0px;
+    left: 380px;
+    color: white;
+    line-height: 12px;
+}
+
+.footer-text h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.footer-text p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 5px;
+}
+
+.footer-contact {
+    position: absolute;
+    top: 3660px;
+    left: 1320px;
+}
+
+.contact {
+    margin: 30px;
+}

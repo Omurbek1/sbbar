@@ -1,0 +1,226 @@
+html, body {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
+    left: 45.62%;
+    right: 47.54%;
+    top: 7%;
+    bottom: -10%;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.back-image img {
+    position: absolute;
+    width: 836px;
+    height: 779px;
+    left: -14px;
+    top: 332px;
+}
+
+.login-btn {
+    position: absolute;
+    width: 110px;
+    height: 44px;
+    left: 497px;
+    top: 170px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    background: transparent;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.register-btn {
+    position: absolute;
+    width: 263px;
+    height: 44px;
+    left: 290px;
+    background: transparent;
+    top: -80px;
+    text-transform: uppercase;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #AAA8A8;
+}
+
+.register-btn:hover {
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+form {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+}
+
+input[type=text], input[type=password] {
+    width: 550px;
+    background: transparent;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    margin: 10px 5px;
+}
+
+label {
+    color: white;
+}
+
+.container {
+    position: absolute;
+    padding: 25px;
+    background: transparent;
+}
+
+.password {
+    width: 550px;
+    margin: 15px auto;
+    position: relative;
+}
+
+#password-input {
+    width: 100%;
+    padding: 5px 0;
+    height: 30px;
+    line-height: 40px;
+    text-indent: 10px;
+    margin: 0 0 15px 0;
+    height: 40px;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+.password-control {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    display: inline-block;
+    width: 20px;
+    filter: brightness(0) invert(1);
+    height: 20px;
+    background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+
+.password-control.view {
+    background-color: white;
+    background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+    filter: brightness(0) invert(1);
+}
+
+.chekked {
+    background: red;
+    width: 20px;
+    height: 20px;
+    /* -webkit-appearance: none; */
+    /* appearance: none; */
+    border: 1px solid white;
+}
+
+form p {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 60px;
+    top: 197px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FFFFFF;
+    color: white;
+}
+
+#forgot {
+    position: absolute;
+    width: 120px;
+    height: 17px;
+    left: 480px;
+    top: 207px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background: transparent;
+    transition: inherit;
+    line-height: 17px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.button button{
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 177px;
+    height: 60px;
+    background: transparent;
+    top: 543px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    width: 107px;
+    height: 44px;
+    left: 245px;
+    top: 273px;
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.backimg{
+    position: absolute;
+    top: 300px;
+    
+}
